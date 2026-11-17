@@ -1,0 +1,3565 @@
+{
+  "sampleDate": "2026-11-15",
+  "rosterComplete": true,
+  "drivers": [
+    {
+      "id": "D001",
+      "name": "Susan Bob",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "completed",
+      "training_completed_at": "2026-11-09"
+    },
+    {
+      "id": "D002",
+      "name": "Mateo Rivera",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "incomplete"
+    },
+    {
+      "id": "D003",
+      "name": "Avery Chen",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "not_trained"
+    },
+    {
+      "id": "D004",
+      "name": "Jordan Brooks",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "unknown"
+    },
+    {
+      "id": "D005",
+      "name": "Nadia Hassan",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "completed",
+      "training_completed_at": "2026-11-09"
+    },
+    {
+      "id": "D006",
+      "name": "Caleb Wilson",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "incomplete"
+    },
+    {
+      "id": "D007",
+      "name": "Priya Shah",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "not_trained"
+    },
+    {
+      "id": "D008",
+      "name": "Luis Ortega",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "unknown"
+    },
+    {
+      "id": "D009",
+      "name": "Maya Kim",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "completed",
+      "training_completed_at": "2026-11-09"
+    },
+    {
+      "id": "D010",
+      "name": "Noah Davis",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "incomplete"
+    },
+    {
+      "id": "D011",
+      "name": "Amara Okafor",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "not_trained"
+    },
+    {
+      "id": "D012",
+      "name": "Eli Torres",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "unknown"
+    },
+    {
+      "id": "D013",
+      "name": "Demo Driver 013",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "completed",
+      "training_completed_at": "2026-11-03"
+    },
+    {
+      "id": "D014",
+      "name": "Demo Driver 014",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "incomplete"
+    },
+    {
+      "id": "D015",
+      "name": "Demo Driver 015",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "not_trained"
+    },
+    {
+      "id": "D016",
+      "name": "Demo Driver 016",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "unknown"
+    },
+    {
+      "id": "D017",
+      "name": "Demo Driver 017",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "completed",
+      "training_completed_at": "2026-11-03"
+    },
+    {
+      "id": "D018",
+      "name": "Demo Driver 018",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "incomplete"
+    },
+    {
+      "id": "D019",
+      "name": "Demo Driver 019",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "not_trained"
+    },
+    {
+      "id": "D020",
+      "name": "Demo Driver 020",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan",
+      "training_status": "unknown"
+    },
+    {
+      "id": "D021",
+      "name": "Demo Driver 021",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "completed",
+      "training_completed_at": "2026-11-03"
+    },
+    {
+      "id": "D022",
+      "name": "Demo Driver 022",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "incomplete"
+    },
+    {
+      "id": "D023",
+      "name": "Demo Driver 023",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "not_trained"
+    },
+    {
+      "id": "D024",
+      "name": "Demo Driver 024",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "unknown"
+    },
+    {
+      "id": "D025",
+      "name": "Demo Driver 025",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "completed",
+      "training_completed_at": "2026-11-03"
+    },
+    {
+      "id": "D026",
+      "name": "Demo Driver 026",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "incomplete"
+    },
+    {
+      "id": "D027",
+      "name": "Demo Driver 027",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "not_trained"
+    },
+    {
+      "id": "D028",
+      "name": "Demo Driver 028",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes",
+      "training_status": "unknown"
+    },
+    {
+      "id": "D029",
+      "name": "Demo Driver 029",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "completed",
+      "training_completed_at": "2026-11-03"
+    },
+    {
+      "id": "D030",
+      "name": "Demo Driver 030",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "incomplete"
+    },
+    {
+      "id": "D031",
+      "name": "Demo Driver 031",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "not_trained"
+    },
+    {
+      "id": "D032",
+      "name": "Demo Driver 032",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "unknown"
+    },
+    {
+      "id": "D033",
+      "name": "Demo Driver 033",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "completed",
+      "training_completed_at": "2026-11-03"
+    },
+    {
+      "id": "D034",
+      "name": "Demo Driver 034",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "incomplete"
+    },
+    {
+      "id": "D035",
+      "name": "Demo Driver 035",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "not_trained"
+    },
+    {
+      "id": "D036",
+      "name": "Demo Driver 036",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel",
+      "training_status": "unknown"
+    }
+  ],
+  "inspections": [
+    {
+      "id": "7107400",
+      "type": "preTrip",
+      "startTime": "2026-11-15T12:00:00Z",
+      "endTime": "2026-11-15T12:12:00Z",
+      "safetyStatus": "unsafe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-15T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [
+        {
+          "defectType": "Brakes",
+          "description": "Air leak at rear service line",
+          "status": "unresolved"
+        }
+      ],
+      "trailerDefects": [],
+      "co_driver_id": "D002",
+      "co_driver_name": "Mateo Rivera"
+    },
+    {
+      "id": "7107401",
+      "type": "preTrip",
+      "startTime": "2026-11-14T12:00:00Z",
+      "endTime": "2026-11-14T12:12:00Z",
+      "safetyStatus": "unknown",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-14T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107402",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-13T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107403",
+      "type": "preTrip",
+      "startTime": "2026-11-12T12:00:00Z",
+      "endTime": "2026-11-12T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-12T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107404",
+      "type": "preTrip",
+      "startTime": "2026-11-11T12:00:00Z",
+      "endTime": "2026-11-11T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-11T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": [],
+      "co_driver_id": "D002",
+      "co_driver_name": "Mateo Rivera"
+    },
+    {
+      "id": "7107405",
+      "type": "preTrip",
+      "startTime": "2026-11-10T12:00:00Z",
+      "endTime": "2026-11-10T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-10T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107406",
+      "type": "preTrip",
+      "startTime": "2026-11-09T12:00:00Z",
+      "endTime": "2026-11-09T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-09T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107407",
+      "type": "preTrip",
+      "startTime": "2026-11-08T12:00:00Z",
+      "endTime": "2026-11-08T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-08T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107408",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-07T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": [],
+      "co_driver_id": "D002",
+      "co_driver_name": "Mateo Rivera"
+    },
+    {
+      "id": "7107409",
+      "type": "preTrip",
+      "startTime": "2026-11-06T12:00:00Z",
+      "endTime": "2026-11-06T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-06T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107410",
+      "type": "preTrip",
+      "startTime": "2026-11-05T12:00:00Z",
+      "endTime": "2026-11-05T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-05T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107411",
+      "type": "preTrip",
+      "startTime": "2026-11-04T12:00:00Z",
+      "endTime": "2026-11-04T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-04T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107412",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-03T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": [],
+      "co_driver_id": "D002",
+      "co_driver_name": "Mateo Rivera"
+    },
+    {
+      "id": "7107413",
+      "type": "preTrip",
+      "startTime": "2026-11-02T12:00:00Z",
+      "endTime": "2026-11-02T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-02T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107414",
+      "type": "preTrip",
+      "startTime": "2026-11-01T12:00:00Z",
+      "endTime": "2026-11-01T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-01T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107415",
+      "type": "preTrip",
+      "startTime": "2026-11-13T13:00:00Z",
+      "endTime": "2026-11-13T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D002",
+          "name": "Mateo Rivera"
+        },
+        "signedAtTime": "2026-11-13T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": {
+        "id": "T300",
+        "name": "Dry van 300"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107416",
+      "type": "preTrip",
+      "startTime": "2026-11-10T13:00:00Z",
+      "endTime": "2026-11-10T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D002",
+          "name": "Mateo Rivera"
+        },
+        "signedAtTime": "2026-11-10T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": {
+        "id": "T300",
+        "name": "Dry van 300"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107417",
+      "type": "preTrip",
+      "startTime": "2026-11-07T13:00:00Z",
+      "endTime": "2026-11-07T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D002",
+          "name": "Mateo Rivera"
+        },
+        "signedAtTime": "2026-11-07T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": {
+        "id": "T300",
+        "name": "Dry van 300"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": [],
+      "co_driver_id": "D001",
+      "co_driver_name": "Susan Bob"
+    },
+    {
+      "id": "7107418",
+      "type": "preTrip",
+      "startTime": "2026-11-04T13:00:00Z",
+      "endTime": "2026-11-04T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D002",
+          "name": "Mateo Rivera"
+        },
+        "signedAtTime": "2026-11-04T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": {
+        "id": "T300",
+        "name": "Dry van 300"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107419",
+      "type": "preTrip",
+      "startTime": "2026-11-01T13:00:00Z",
+      "endTime": "2026-11-01T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D002",
+          "name": "Mateo Rivera"
+        },
+        "signedAtTime": "2026-11-01T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": {
+        "id": "T300",
+        "name": "Dry van 300"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107420",
+      "type": "preTrip",
+      "startTime": "2026-11-13T14:00:00Z",
+      "endTime": "2026-11-13T14:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D003",
+          "name": "Avery Chen"
+        },
+        "signedAtTime": "2026-11-13T14:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V25",
+        "name": "Tractor 25"
+      },
+      "trailer": {
+        "id": "T300",
+        "name": "Dry van 300"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107421",
+      "type": "preTrip",
+      "startTime": "2026-11-09T14:00:00Z",
+      "endTime": "2026-11-09T14:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D003",
+          "name": "Avery Chen"
+        },
+        "signedAtTime": "2026-11-09T14:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V25",
+        "name": "Tractor 25"
+      },
+      "trailer": {
+        "id": "T300",
+        "name": "Dry van 300"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107422",
+      "type": "preTrip",
+      "startTime": "2026-11-05T14:00:00Z",
+      "endTime": "2026-11-05T14:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D003",
+          "name": "Avery Chen"
+        },
+        "signedAtTime": "2026-11-05T14:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V25",
+        "name": "Tractor 25"
+      },
+      "trailer": {
+        "id": "T300",
+        "name": "Dry van 300"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107423",
+      "type": "preTrip",
+      "startTime": "2026-11-01T14:00:00Z",
+      "endTime": "2026-11-01T14:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D003",
+          "name": "Avery Chen"
+        },
+        "signedAtTime": "2026-11-01T14:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V25",
+        "name": "Tractor 25"
+      },
+      "trailer": {
+        "id": "T300",
+        "name": "Dry van 300"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107424",
+      "type": "preTrip",
+      "startTime": "2026-11-13T15:00:00Z",
+      "endTime": "2026-11-13T15:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D004",
+          "name": "Jordan Brooks"
+        },
+        "signedAtTime": "2026-11-13T15:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V25",
+        "name": "Tractor 25"
+      },
+      "trailer": {
+        "id": "T301",
+        "name": "Dry van 301"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107425",
+      "type": "preTrip",
+      "startTime": "2026-11-08T15:00:00Z",
+      "endTime": "2026-11-08T15:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D004",
+          "name": "Jordan Brooks"
+        },
+        "signedAtTime": "2026-11-08T15:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V25",
+        "name": "Tractor 25"
+      },
+      "trailer": {
+        "id": "T301",
+        "name": "Dry van 301"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107426",
+      "type": "preTrip",
+      "startTime": "2026-11-03T15:00:00Z",
+      "endTime": "2026-11-03T15:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D004",
+          "name": "Jordan Brooks"
+        },
+        "signedAtTime": "2026-11-03T15:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V25",
+        "name": "Tractor 25"
+      },
+      "trailer": {
+        "id": "T301",
+        "name": "Dry van 301"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107427",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D005",
+          "name": "Nadia Hassan"
+        },
+        "signedAtTime": "2026-11-13T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V26",
+        "name": "Tractor 26"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107428",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D005",
+          "name": "Nadia Hassan"
+        },
+        "signedAtTime": "2026-11-07T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V26",
+        "name": "Tractor 26"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107429",
+      "type": "preTrip",
+      "startTime": "2026-11-01T12:00:00Z",
+      "endTime": "2026-11-01T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D005",
+          "name": "Nadia Hassan"
+        },
+        "signedAtTime": "2026-11-01T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V26",
+        "name": "Tractor 26"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107430",
+      "type": "preTrip",
+      "startTime": "2026-11-14T13:00:00Z",
+      "endTime": "2026-11-14T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D006",
+          "name": "Caleb Wilson"
+        },
+        "signedAtTime": "2026-11-14T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V26",
+        "name": "Tractor 26"
+      },
+      "trailer": {
+        "id": "T301",
+        "name": "Dry van 301"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107431",
+      "type": "preTrip",
+      "startTime": "2026-11-12T13:00:00Z",
+      "endTime": "2026-11-12T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D006",
+          "name": "Caleb Wilson"
+        },
+        "signedAtTime": "2026-11-12T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V26",
+        "name": "Tractor 26"
+      },
+      "trailer": {
+        "id": "T301",
+        "name": "Dry van 301"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107432",
+      "type": "preTrip",
+      "startTime": "2026-11-10T13:00:00Z",
+      "endTime": "2026-11-10T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D006",
+          "name": "Caleb Wilson"
+        },
+        "signedAtTime": "2026-11-10T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V26",
+        "name": "Tractor 26"
+      },
+      "trailer": {
+        "id": "T301",
+        "name": "Dry van 301"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107433",
+      "type": "preTrip",
+      "startTime": "2026-11-08T13:00:00Z",
+      "endTime": "2026-11-08T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D006",
+          "name": "Caleb Wilson"
+        },
+        "signedAtTime": "2026-11-08T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V26",
+        "name": "Tractor 26"
+      },
+      "trailer": {
+        "id": "T301",
+        "name": "Dry van 301"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107434",
+      "type": "preTrip",
+      "startTime": "2026-11-06T13:00:00Z",
+      "endTime": "2026-11-06T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D006",
+          "name": "Caleb Wilson"
+        },
+        "signedAtTime": "2026-11-06T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V26",
+        "name": "Tractor 26"
+      },
+      "trailer": {
+        "id": "T301",
+        "name": "Dry van 301"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107435",
+      "type": "preTrip",
+      "startTime": "2026-11-04T13:00:00Z",
+      "endTime": "2026-11-04T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D006",
+          "name": "Caleb Wilson"
+        },
+        "signedAtTime": "2026-11-04T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V26",
+        "name": "Tractor 26"
+      },
+      "trailer": {
+        "id": "T301",
+        "name": "Dry van 301"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107436",
+      "type": "preTrip",
+      "startTime": "2026-11-02T13:00:00Z",
+      "endTime": "2026-11-02T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D006",
+          "name": "Caleb Wilson"
+        },
+        "signedAtTime": "2026-11-02T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V26",
+        "name": "Tractor 26"
+      },
+      "trailer": {
+        "id": "T301",
+        "name": "Dry van 301"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107437",
+      "type": "preTrip",
+      "startTime": "2026-11-15T14:00:00Z",
+      "endTime": "2026-11-15T14:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D007",
+          "name": "Priya Shah"
+        },
+        "signedAtTime": "2026-11-15T14:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V27",
+        "name": "Tractor 27"
+      },
+      "trailer": {
+        "id": "T302",
+        "name": "Dry van 302"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107438",
+      "type": "preTrip",
+      "startTime": "2026-11-12T14:00:00Z",
+      "endTime": "2026-11-12T14:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D007",
+          "name": "Priya Shah"
+        },
+        "signedAtTime": "2026-11-12T14:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V27",
+        "name": "Tractor 27"
+      },
+      "trailer": {
+        "id": "T302",
+        "name": "Dry van 302"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107439",
+      "type": "preTrip",
+      "startTime": "2026-11-09T14:00:00Z",
+      "endTime": "2026-11-09T14:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D007",
+          "name": "Priya Shah"
+        },
+        "signedAtTime": "2026-11-09T14:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V27",
+        "name": "Tractor 27"
+      },
+      "trailer": {
+        "id": "T302",
+        "name": "Dry van 302"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107440",
+      "type": "preTrip",
+      "startTime": "2026-11-06T14:00:00Z",
+      "endTime": "2026-11-06T14:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D007",
+          "name": "Priya Shah"
+        },
+        "signedAtTime": "2026-11-06T14:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V27",
+        "name": "Tractor 27"
+      },
+      "trailer": {
+        "id": "T302",
+        "name": "Dry van 302"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107441",
+      "type": "preTrip",
+      "startTime": "2026-11-03T14:00:00Z",
+      "endTime": "2026-11-03T14:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D007",
+          "name": "Priya Shah"
+        },
+        "signedAtTime": "2026-11-03T14:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V27",
+        "name": "Tractor 27"
+      },
+      "trailer": {
+        "id": "T302",
+        "name": "Dry van 302"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107442",
+      "type": "preTrip",
+      "startTime": "2026-11-14T15:00:00Z",
+      "endTime": "2026-11-14T15:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D008",
+          "name": "Luis Ortega"
+        },
+        "signedAtTime": "2026-11-14T15:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V27",
+        "name": "Tractor 27"
+      },
+      "trailer": {
+        "id": "T302",
+        "name": "Dry van 302"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107443",
+      "type": "preTrip",
+      "startTime": "2026-11-10T15:00:00Z",
+      "endTime": "2026-11-10T15:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D008",
+          "name": "Luis Ortega"
+        },
+        "signedAtTime": "2026-11-10T15:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V27",
+        "name": "Tractor 27"
+      },
+      "trailer": {
+        "id": "T302",
+        "name": "Dry van 302"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107444",
+      "type": "preTrip",
+      "startTime": "2026-11-06T15:00:00Z",
+      "endTime": "2026-11-06T15:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D008",
+          "name": "Luis Ortega"
+        },
+        "signedAtTime": "2026-11-06T15:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V27",
+        "name": "Tractor 27"
+      },
+      "trailer": {
+        "id": "T302",
+        "name": "Dry van 302"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107445",
+      "type": "preTrip",
+      "startTime": "2026-11-02T15:00:00Z",
+      "endTime": "2026-11-02T15:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D008",
+          "name": "Luis Ortega"
+        },
+        "signedAtTime": "2026-11-02T15:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V27",
+        "name": "Tractor 27"
+      },
+      "trailer": {
+        "id": "T302",
+        "name": "Dry van 302"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107446",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D009",
+          "name": "Maya Kim"
+        },
+        "signedAtTime": "2026-11-13T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V28",
+        "name": "Tractor 28"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107447",
+      "type": "preTrip",
+      "startTime": "2026-11-08T12:00:00Z",
+      "endTime": "2026-11-08T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D009",
+          "name": "Maya Kim"
+        },
+        "signedAtTime": "2026-11-08T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V28",
+        "name": "Tractor 28"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107448",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D009",
+          "name": "Maya Kim"
+        },
+        "signedAtTime": "2026-11-03T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V28",
+        "name": "Tractor 28"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107449",
+      "type": "preTrip",
+      "startTime": "2026-11-12T13:00:00Z",
+      "endTime": "2026-11-12T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D010",
+          "name": "Noah Davis"
+        },
+        "signedAtTime": "2026-11-12T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V28",
+        "name": "Tractor 28"
+      },
+      "trailer": {
+        "id": "T303",
+        "name": "Dry van 303"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107450",
+      "type": "preTrip",
+      "startTime": "2026-11-06T13:00:00Z",
+      "endTime": "2026-11-06T13:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D010",
+          "name": "Noah Davis"
+        },
+        "signedAtTime": "2026-11-06T13:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V28",
+        "name": "Tractor 28"
+      },
+      "trailer": {
+        "id": "T303",
+        "name": "Dry van 303"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "7107999",
+      "type": "postTrip",
+      "startTime": "2026-11-15T12:00:00Z",
+      "endTime": "2026-11-15T12:12:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D001",
+          "name": "Susan Bob"
+        },
+        "signedAtTime": "2026-11-15T12:12:00Z",
+        "type": "driver"
+      },
+      "vehicle": {
+        "id": "V24",
+        "name": "Tractor 24"
+      },
+      "trailer": null,
+      "vehicleDefects": [],
+      "trailerDefects": [],
+      "co_driver_id": null,
+      "co_driver_name": null
+    },
+    {
+      "id": "DEMO-D013-0",
+      "type": "preTrip",
+      "startTime": "2026-11-15T12:00:00Z",
+      "endTime": "2026-11-15T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-1",
+      "type": "preTrip",
+      "startTime": "2026-11-14T12:00:00Z",
+      "endTime": "2026-11-14T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-2",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-3",
+      "type": "preTrip",
+      "startTime": "2026-11-12T12:00:00Z",
+      "endTime": "2026-11-12T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-4",
+      "type": "preTrip",
+      "startTime": "2026-11-11T12:00:00Z",
+      "endTime": "2026-11-11T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-5",
+      "type": "preTrip",
+      "startTime": "2026-11-10T12:00:00Z",
+      "endTime": "2026-11-10T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-6",
+      "type": "preTrip",
+      "startTime": "2026-11-09T12:00:00Z",
+      "endTime": "2026-11-09T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-7",
+      "type": "preTrip",
+      "startTime": "2026-11-08T12:00:00Z",
+      "endTime": "2026-11-08T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-8",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-9",
+      "type": "preTrip",
+      "startTime": "2026-11-06T12:00:00Z",
+      "endTime": "2026-11-06T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-10",
+      "type": "preTrip",
+      "startTime": "2026-11-05T12:00:00Z",
+      "endTime": "2026-11-05T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-11",
+      "type": "preTrip",
+      "startTime": "2026-11-04T12:00:00Z",
+      "endTime": "2026-11-04T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-12",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-13",
+      "type": "preTrip",
+      "startTime": "2026-11-02T12:00:00Z",
+      "endTime": "2026-11-02T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D013-14",
+      "type": "preTrip",
+      "startTime": "2026-11-01T12:00:00Z",
+      "endTime": "2026-11-01T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D013",
+          "name": "Demo Driver 013"
+        }
+      },
+      "vehicle": {
+        "id": "V104",
+        "name": "Demo Truck 1-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D014-0",
+      "type": "preTrip",
+      "startTime": "2026-11-15T12:00:00Z",
+      "endTime": "2026-11-15T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D014",
+          "name": "Demo Driver 014"
+        }
+      },
+      "vehicle": {
+        "id": "V105",
+        "name": "Demo Truck 1-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D014-2",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D014",
+          "name": "Demo Driver 014"
+        }
+      },
+      "vehicle": {
+        "id": "V105",
+        "name": "Demo Truck 1-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D014-4",
+      "type": "preTrip",
+      "startTime": "2026-11-11T12:00:00Z",
+      "endTime": "2026-11-11T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D014",
+          "name": "Demo Driver 014"
+        }
+      },
+      "vehicle": {
+        "id": "V105",
+        "name": "Demo Truck 1-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D014-6",
+      "type": "preTrip",
+      "startTime": "2026-11-09T12:00:00Z",
+      "endTime": "2026-11-09T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D014",
+          "name": "Demo Driver 014"
+        }
+      },
+      "vehicle": {
+        "id": "V105",
+        "name": "Demo Truck 1-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D014-8",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D014",
+          "name": "Demo Driver 014"
+        }
+      },
+      "vehicle": {
+        "id": "V105",
+        "name": "Demo Truck 1-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D014-10",
+      "type": "preTrip",
+      "startTime": "2026-11-05T12:00:00Z",
+      "endTime": "2026-11-05T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D014",
+          "name": "Demo Driver 014"
+        }
+      },
+      "vehicle": {
+        "id": "V105",
+        "name": "Demo Truck 1-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D014-12",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D014",
+          "name": "Demo Driver 014"
+        }
+      },
+      "vehicle": {
+        "id": "V105",
+        "name": "Demo Truck 1-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D014-14",
+      "type": "preTrip",
+      "startTime": "2026-11-01T12:00:00Z",
+      "endTime": "2026-11-01T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D014",
+          "name": "Demo Driver 014"
+        }
+      },
+      "vehicle": {
+        "id": "V105",
+        "name": "Demo Truck 1-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D015-1",
+      "type": "preTrip",
+      "startTime": "2026-11-14T12:00:00Z",
+      "endTime": "2026-11-14T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D015",
+          "name": "Demo Driver 015"
+        }
+      },
+      "vehicle": {
+        "id": "V106",
+        "name": "Demo Truck 1-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D015-4",
+      "type": "preTrip",
+      "startTime": "2026-11-11T12:00:00Z",
+      "endTime": "2026-11-11T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D015",
+          "name": "Demo Driver 015"
+        }
+      },
+      "vehicle": {
+        "id": "V106",
+        "name": "Demo Truck 1-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D015-8",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D015",
+          "name": "Demo Driver 015"
+        }
+      },
+      "vehicle": {
+        "id": "V106",
+        "name": "Demo Truck 1-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D015-13",
+      "type": "preTrip",
+      "startTime": "2026-11-02T12:00:00Z",
+      "endTime": "2026-11-02T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D015",
+          "name": "Demo Driver 015"
+        }
+      },
+      "vehicle": {
+        "id": "V106",
+        "name": "Demo Truck 1-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D016-3",
+      "type": "preTrip",
+      "startTime": "2026-11-12T12:00:00Z",
+      "endTime": "2026-11-12T12:10:00Z",
+      "safetyStatus": "unknown",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D016",
+          "name": "Demo Driver 016"
+        }
+      },
+      "vehicle": {
+        "id": "V107",
+        "name": "Demo Truck 1-07"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D016-10",
+      "type": "preTrip",
+      "startTime": "2026-11-05T12:00:00Z",
+      "endTime": "2026-11-05T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D016",
+          "name": "Demo Driver 016"
+        }
+      },
+      "vehicle": {
+        "id": "V107",
+        "name": "Demo Truck 1-07"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D018-2",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D018",
+          "name": "Demo Driver 018"
+        }
+      },
+      "vehicle": {
+        "id": "V109",
+        "name": "Demo Truck 1-09"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D018-6",
+      "type": "preTrip",
+      "startTime": "2026-11-09T12:00:00Z",
+      "endTime": "2026-11-09T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D018",
+          "name": "Demo Driver 018"
+        }
+      },
+      "vehicle": {
+        "id": "V109",
+        "name": "Demo Truck 1-09"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D018-12",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D018",
+          "name": "Demo Driver 018"
+        }
+      },
+      "vehicle": {
+        "id": "V109",
+        "name": "Demo Truck 1-09"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-0",
+      "type": "preTrip",
+      "startTime": "2026-11-15T12:00:00Z",
+      "endTime": "2026-11-15T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-1",
+      "type": "preTrip",
+      "startTime": "2026-11-14T12:00:00Z",
+      "endTime": "2026-11-14T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-2",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-3",
+      "type": "preTrip",
+      "startTime": "2026-11-12T12:00:00Z",
+      "endTime": "2026-11-12T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-4",
+      "type": "preTrip",
+      "startTime": "2026-11-11T12:00:00Z",
+      "endTime": "2026-11-11T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-5",
+      "type": "preTrip",
+      "startTime": "2026-11-10T12:00:00Z",
+      "endTime": "2026-11-10T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-6",
+      "type": "preTrip",
+      "startTime": "2026-11-09T12:00:00Z",
+      "endTime": "2026-11-09T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-7",
+      "type": "preTrip",
+      "startTime": "2026-11-08T12:00:00Z",
+      "endTime": "2026-11-08T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-8",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-9",
+      "type": "preTrip",
+      "startTime": "2026-11-06T12:00:00Z",
+      "endTime": "2026-11-06T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-10",
+      "type": "preTrip",
+      "startTime": "2026-11-05T12:00:00Z",
+      "endTime": "2026-11-05T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-11",
+      "type": "preTrip",
+      "startTime": "2026-11-04T12:00:00Z",
+      "endTime": "2026-11-04T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-12",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-13",
+      "type": "preTrip",
+      "startTime": "2026-11-02T12:00:00Z",
+      "endTime": "2026-11-02T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D021-14",
+      "type": "preTrip",
+      "startTime": "2026-11-01T12:00:00Z",
+      "endTime": "2026-11-01T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D021",
+          "name": "Demo Driver 021"
+        }
+      },
+      "vehicle": {
+        "id": "V204",
+        "name": "Demo Truck 2-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D022-0",
+      "type": "preTrip",
+      "startTime": "2026-11-15T12:00:00Z",
+      "endTime": "2026-11-15T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D022",
+          "name": "Demo Driver 022"
+        }
+      },
+      "vehicle": {
+        "id": "V205",
+        "name": "Demo Truck 2-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D022-2",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D022",
+          "name": "Demo Driver 022"
+        }
+      },
+      "vehicle": {
+        "id": "V205",
+        "name": "Demo Truck 2-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D022-4",
+      "type": "preTrip",
+      "startTime": "2026-11-11T12:00:00Z",
+      "endTime": "2026-11-11T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D022",
+          "name": "Demo Driver 022"
+        }
+      },
+      "vehicle": {
+        "id": "V205",
+        "name": "Demo Truck 2-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D022-6",
+      "type": "preTrip",
+      "startTime": "2026-11-09T12:00:00Z",
+      "endTime": "2026-11-09T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D022",
+          "name": "Demo Driver 022"
+        }
+      },
+      "vehicle": {
+        "id": "V205",
+        "name": "Demo Truck 2-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D022-8",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D022",
+          "name": "Demo Driver 022"
+        }
+      },
+      "vehicle": {
+        "id": "V205",
+        "name": "Demo Truck 2-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D022-10",
+      "type": "preTrip",
+      "startTime": "2026-11-05T12:00:00Z",
+      "endTime": "2026-11-05T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D022",
+          "name": "Demo Driver 022"
+        }
+      },
+      "vehicle": {
+        "id": "V205",
+        "name": "Demo Truck 2-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D022-12",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D022",
+          "name": "Demo Driver 022"
+        }
+      },
+      "vehicle": {
+        "id": "V205",
+        "name": "Demo Truck 2-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D022-14",
+      "type": "preTrip",
+      "startTime": "2026-11-01T12:00:00Z",
+      "endTime": "2026-11-01T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D022",
+          "name": "Demo Driver 022"
+        }
+      },
+      "vehicle": {
+        "id": "V205",
+        "name": "Demo Truck 2-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D023-1",
+      "type": "preTrip",
+      "startTime": "2026-11-14T12:00:00Z",
+      "endTime": "2026-11-14T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D023",
+          "name": "Demo Driver 023"
+        }
+      },
+      "vehicle": {
+        "id": "V206",
+        "name": "Demo Truck 2-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D023-4",
+      "type": "preTrip",
+      "startTime": "2026-11-11T12:00:00Z",
+      "endTime": "2026-11-11T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D023",
+          "name": "Demo Driver 023"
+        }
+      },
+      "vehicle": {
+        "id": "V206",
+        "name": "Demo Truck 2-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D023-8",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D023",
+          "name": "Demo Driver 023"
+        }
+      },
+      "vehicle": {
+        "id": "V206",
+        "name": "Demo Truck 2-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D023-13",
+      "type": "preTrip",
+      "startTime": "2026-11-02T12:00:00Z",
+      "endTime": "2026-11-02T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D023",
+          "name": "Demo Driver 023"
+        }
+      },
+      "vehicle": {
+        "id": "V206",
+        "name": "Demo Truck 2-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D024-3",
+      "type": "preTrip",
+      "startTime": "2026-11-12T12:00:00Z",
+      "endTime": "2026-11-12T12:10:00Z",
+      "safetyStatus": "unknown",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D024",
+          "name": "Demo Driver 024"
+        }
+      },
+      "vehicle": {
+        "id": "V207",
+        "name": "Demo Truck 2-07"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D024-10",
+      "type": "preTrip",
+      "startTime": "2026-11-05T12:00:00Z",
+      "endTime": "2026-11-05T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D024",
+          "name": "Demo Driver 024"
+        }
+      },
+      "vehicle": {
+        "id": "V207",
+        "name": "Demo Truck 2-07"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D026-2",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D026",
+          "name": "Demo Driver 026"
+        }
+      },
+      "vehicle": {
+        "id": "V209",
+        "name": "Demo Truck 2-09"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D026-6",
+      "type": "preTrip",
+      "startTime": "2026-11-09T12:00:00Z",
+      "endTime": "2026-11-09T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D026",
+          "name": "Demo Driver 026"
+        }
+      },
+      "vehicle": {
+        "id": "V209",
+        "name": "Demo Truck 2-09"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D026-12",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D026",
+          "name": "Demo Driver 026"
+        }
+      },
+      "vehicle": {
+        "id": "V209",
+        "name": "Demo Truck 2-09"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-0",
+      "type": "preTrip",
+      "startTime": "2026-11-15T12:00:00Z",
+      "endTime": "2026-11-15T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-1",
+      "type": "preTrip",
+      "startTime": "2026-11-14T12:00:00Z",
+      "endTime": "2026-11-14T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-2",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-3",
+      "type": "preTrip",
+      "startTime": "2026-11-12T12:00:00Z",
+      "endTime": "2026-11-12T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-4",
+      "type": "preTrip",
+      "startTime": "2026-11-11T12:00:00Z",
+      "endTime": "2026-11-11T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-5",
+      "type": "preTrip",
+      "startTime": "2026-11-10T12:00:00Z",
+      "endTime": "2026-11-10T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-6",
+      "type": "preTrip",
+      "startTime": "2026-11-09T12:00:00Z",
+      "endTime": "2026-11-09T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-7",
+      "type": "preTrip",
+      "startTime": "2026-11-08T12:00:00Z",
+      "endTime": "2026-11-08T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-8",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-9",
+      "type": "preTrip",
+      "startTime": "2026-11-06T12:00:00Z",
+      "endTime": "2026-11-06T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-10",
+      "type": "preTrip",
+      "startTime": "2026-11-05T12:00:00Z",
+      "endTime": "2026-11-05T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-11",
+      "type": "preTrip",
+      "startTime": "2026-11-04T12:00:00Z",
+      "endTime": "2026-11-04T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-12",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-13",
+      "type": "preTrip",
+      "startTime": "2026-11-02T12:00:00Z",
+      "endTime": "2026-11-02T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D029-14",
+      "type": "preTrip",
+      "startTime": "2026-11-01T12:00:00Z",
+      "endTime": "2026-11-01T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D029",
+          "name": "Demo Driver 029"
+        }
+      },
+      "vehicle": {
+        "id": "V304",
+        "name": "Demo Truck 3-04"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D030-0",
+      "type": "preTrip",
+      "startTime": "2026-11-15T12:00:00Z",
+      "endTime": "2026-11-15T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D030",
+          "name": "Demo Driver 030"
+        }
+      },
+      "vehicle": {
+        "id": "V305",
+        "name": "Demo Truck 3-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D030-2",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D030",
+          "name": "Demo Driver 030"
+        }
+      },
+      "vehicle": {
+        "id": "V305",
+        "name": "Demo Truck 3-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D030-4",
+      "type": "preTrip",
+      "startTime": "2026-11-11T12:00:00Z",
+      "endTime": "2026-11-11T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D030",
+          "name": "Demo Driver 030"
+        }
+      },
+      "vehicle": {
+        "id": "V305",
+        "name": "Demo Truck 3-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D030-6",
+      "type": "preTrip",
+      "startTime": "2026-11-09T12:00:00Z",
+      "endTime": "2026-11-09T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D030",
+          "name": "Demo Driver 030"
+        }
+      },
+      "vehicle": {
+        "id": "V305",
+        "name": "Demo Truck 3-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D030-8",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D030",
+          "name": "Demo Driver 030"
+        }
+      },
+      "vehicle": {
+        "id": "V305",
+        "name": "Demo Truck 3-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D030-10",
+      "type": "preTrip",
+      "startTime": "2026-11-05T12:00:00Z",
+      "endTime": "2026-11-05T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D030",
+          "name": "Demo Driver 030"
+        }
+      },
+      "vehicle": {
+        "id": "V305",
+        "name": "Demo Truck 3-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D030-12",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D030",
+          "name": "Demo Driver 030"
+        }
+      },
+      "vehicle": {
+        "id": "V305",
+        "name": "Demo Truck 3-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D030-14",
+      "type": "preTrip",
+      "startTime": "2026-11-01T12:00:00Z",
+      "endTime": "2026-11-01T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D030",
+          "name": "Demo Driver 030"
+        }
+      },
+      "vehicle": {
+        "id": "V305",
+        "name": "Demo Truck 3-05"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D031-1",
+      "type": "preTrip",
+      "startTime": "2026-11-14T12:00:00Z",
+      "endTime": "2026-11-14T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D031",
+          "name": "Demo Driver 031"
+        }
+      },
+      "vehicle": {
+        "id": "V306",
+        "name": "Demo Truck 3-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D031-4",
+      "type": "preTrip",
+      "startTime": "2026-11-11T12:00:00Z",
+      "endTime": "2026-11-11T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D031",
+          "name": "Demo Driver 031"
+        }
+      },
+      "vehicle": {
+        "id": "V306",
+        "name": "Demo Truck 3-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D031-8",
+      "type": "preTrip",
+      "startTime": "2026-11-07T12:00:00Z",
+      "endTime": "2026-11-07T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D031",
+          "name": "Demo Driver 031"
+        }
+      },
+      "vehicle": {
+        "id": "V306",
+        "name": "Demo Truck 3-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D031-13",
+      "type": "preTrip",
+      "startTime": "2026-11-02T12:00:00Z",
+      "endTime": "2026-11-02T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D031",
+          "name": "Demo Driver 031"
+        }
+      },
+      "vehicle": {
+        "id": "V306",
+        "name": "Demo Truck 3-06"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D032-3",
+      "type": "preTrip",
+      "startTime": "2026-11-12T12:00:00Z",
+      "endTime": "2026-11-12T12:10:00Z",
+      "safetyStatus": "unknown",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D032",
+          "name": "Demo Driver 032"
+        }
+      },
+      "vehicle": {
+        "id": "V307",
+        "name": "Demo Truck 3-07"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D032-10",
+      "type": "preTrip",
+      "startTime": "2026-11-05T12:00:00Z",
+      "endTime": "2026-11-05T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D032",
+          "name": "Demo Driver 032"
+        }
+      },
+      "vehicle": {
+        "id": "V307",
+        "name": "Demo Truck 3-07"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D034-2",
+      "type": "preTrip",
+      "startTime": "2026-11-13T12:00:00Z",
+      "endTime": "2026-11-13T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D034",
+          "name": "Demo Driver 034"
+        }
+      },
+      "vehicle": {
+        "id": "V309",
+        "name": "Demo Truck 3-09"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D034-6",
+      "type": "preTrip",
+      "startTime": "2026-11-09T12:00:00Z",
+      "endTime": "2026-11-09T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D034",
+          "name": "Demo Driver 034"
+        }
+      },
+      "vehicle": {
+        "id": "V309",
+        "name": "Demo Truck 3-09"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    },
+    {
+      "id": "DEMO-D034-12",
+      "type": "preTrip",
+      "startTime": "2026-11-03T12:00:00Z",
+      "endTime": "2026-11-03T12:10:00Z",
+      "safetyStatus": "safe",
+      "authorSignature": {
+        "signatoryUser": {
+          "id": "D034",
+          "name": "Demo Driver 034"
+        }
+      },
+      "vehicle": {
+        "id": "V309",
+        "name": "Demo Truck 3-09"
+      },
+      "vehicleDefects": [],
+      "trailerDefects": []
+    }
+  ],
+  "teamAssignments": [
+    {
+      "dvir_id": "7107402",
+      "driver_id": "D001",
+      "co_driver_id": "D002"
+    },
+    {
+      "dvir_id": "7107406",
+      "driver_id": "D001",
+      "co_driver_id": "D002"
+    },
+    {
+      "dvir_id": "7107410",
+      "driver_id": "D001",
+      "co_driver_id": "D002"
+    },
+    {
+      "dvir_id": "7107414",
+      "driver_id": "D001",
+      "co_driver_id": "D002"
+    },
+    {
+      "dvir_id": "7107415",
+      "driver_id": "D002",
+      "co_driver_id": "D001"
+    },
+    {
+      "dvir_id": "7107419",
+      "driver_id": "D002",
+      "co_driver_id": "D001"
+    }
+  ],
+  "vehicleAssignments": [
+    {
+      "vehicle_id": "V24",
+      "vehicle_name": "Tractor 24",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V25",
+      "vehicle_name": "Tractor 25",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes"
+    },
+    {
+      "vehicle_id": "V26",
+      "vehicle_name": "Tractor 26",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel"
+    },
+    {
+      "vehicle_id": "V27",
+      "vehicle_name": "Tractor 27",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V28",
+      "vehicle_name": "Tractor 28",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes"
+    },
+    {
+      "vehicle_id": "V29",
+      "vehicle_name": "Tractor 29",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel"
+    },
+    {
+      "vehicle_id": "V30",
+      "vehicle_name": "Tractor 30",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V104",
+      "vehicle_name": "Demo Truck 1-04",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V105",
+      "vehicle_name": "Demo Truck 1-05",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V106",
+      "vehicle_name": "Demo Truck 1-06",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V107",
+      "vehicle_name": "Demo Truck 1-07",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V108",
+      "vehicle_name": "Demo Truck 1-08",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V109",
+      "vehicle_name": "Demo Truck 1-09",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V110",
+      "vehicle_name": "Demo Truck 1-10",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V111",
+      "vehicle_name": "Demo Truck 1-11",
+      "safety_officer_id": "SO001",
+      "safety_officer_name": "Alice Morgan"
+    },
+    {
+      "vehicle_id": "V204",
+      "vehicle_name": "Demo Truck 2-04",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes"
+    },
+    {
+      "vehicle_id": "V205",
+      "vehicle_name": "Demo Truck 2-05",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes"
+    },
+    {
+      "vehicle_id": "V206",
+      "vehicle_name": "Demo Truck 2-06",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes"
+    },
+    {
+      "vehicle_id": "V207",
+      "vehicle_name": "Demo Truck 2-07",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes"
+    },
+    {
+      "vehicle_id": "V208",
+      "vehicle_name": "Demo Truck 2-08",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes"
+    },
+    {
+      "vehicle_id": "V209",
+      "vehicle_name": "Demo Truck 2-09",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes"
+    },
+    {
+      "vehicle_id": "V210",
+      "vehicle_name": "Demo Truck 2-10",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes"
+    },
+    {
+      "vehicle_id": "V211",
+      "vehicle_name": "Demo Truck 2-11",
+      "safety_officer_id": "SO002",
+      "safety_officer_name": "Carlos Reyes"
+    },
+    {
+      "vehicle_id": "V304",
+      "vehicle_name": "Demo Truck 3-04",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel"
+    },
+    {
+      "vehicle_id": "V305",
+      "vehicle_name": "Demo Truck 3-05",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel"
+    },
+    {
+      "vehicle_id": "V306",
+      "vehicle_name": "Demo Truck 3-06",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel"
+    },
+    {
+      "vehicle_id": "V307",
+      "vehicle_name": "Demo Truck 3-07",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel"
+    },
+    {
+      "vehicle_id": "V308",
+      "vehicle_name": "Demo Truck 3-08",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel"
+    },
+    {
+      "vehicle_id": "V309",
+      "vehicle_name": "Demo Truck 3-09",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel"
+    },
+    {
+      "vehicle_id": "V310",
+      "vehicle_name": "Demo Truck 3-10",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel"
+    },
+    {
+      "vehicle_id": "V311",
+      "vehicle_name": "Demo Truck 3-11",
+      "safety_officer_id": "SO003",
+      "safety_officer_name": "Dana Patel"
+    }
+  ]
+}
