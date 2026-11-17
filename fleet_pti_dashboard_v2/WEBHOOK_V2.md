@@ -53,3 +53,18 @@ Use one new n8n dashboard endpoint, for example `GET /webhook/pti-dashboard-v2?d
 Set `rosterComplete` to true only when the full reporting roster is present. Version 2 uses fixed array names. Use a common officer ID in both assignment feeds and resolve competing current assignments before sending them. The dashboard joins training by driver ID and treats conflicting training rows as unknown. Preserve optional Samsara inspection fields for drill-down.
 
 Set `PTI_MODE=live` and `N8N_WEBHOOK_URL` in this copy's local `.env` once the new endpoint is ready. Demo mode exercises the version 2 payload. Older response formats are still accepted.
+
+## Changing the webhook later
+
+| Change | Where to make it |
+|---|---|
+| n8n production URL or bearer token | Update `N8N_WEBHOOK_URL` or `N8N_WEBHOOK_TOKEN` in the dashboard environment or Streamlit secrets |
+| Samsara, Cogo, Monday, or officer assignment source | Change the upstream nodes and field mappings in n8n. Continue returning the version 2 response shape |
+| Different upstream IDs or training labels | Update the verified crosswalk or label mapping in n8n, then check driver joins and unknown outcomes |
+| Different response array names or nesting | Translate the source into the documented version 2 keys in n8n. If the dashboard must accept a new contract directly, update its adapter and fixtures |
+| New request method, authentication scheme, or query parameter | Update the dashboard API client and request tests to match the endpoint |
+| Longer history for the last recorded PTI | Configure the upstream lookback and define how coverage is communicated. Update the dashboard logic to calculate last-seen dates from that history while keeping board counts within the selected period |
+
+Version 2 array names are fixed. The legacy `PTI_*_KEY` environment settings apply to the older wrapper. When changing the response contract, keep a redacted sample from each source, preserve the current contract during migration where practical, and verify a successful empty feed separately from an unavailable or partially fetched feed.
+
+To validate a replacement endpoint, test both `?days=7` and `?days=15`. Check distinct DVIR IDs, complete pagination, local date boundaries, driver and vehicle officer assignments, and training records with and without verified matches. Compare one officer's actual heatmap and missing-DVIR lists to the upstream records before switching the production URL. See [Dashboard logic](LOGIC.md#10-reusing-a-longer-dvir-lookback-for-last-seen-dates) for the proposed history design.

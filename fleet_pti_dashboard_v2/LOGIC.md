@@ -83,3 +83,62 @@ Defect normalization counts each object in vehicle and trailer defect arrays. An
 A missing recorded PTI is an item to investigate. The app has no expected-driving-opportunity denominator and reports no verified missed-inspection count or compliance percentage. An unsafe record describes an inspection event. Assessing current equipment condition requires subsequent inspection and repair information.
 
 When changing the UI, test both date windows, the safety officer filters, zero-submission roster members, repeated same-day DVIRs, ambiguous and unsafe heatmap cells, date-only training completion, confirmed team credit, and missing driver and vehicle assignment matches. Run `python -m pytest -q` from the v2 project. Demo mode exercises the v2 response adapter.
+
+## 8. Worked example for validating a redesign
+
+Assume a complete roster, no additional filters, and a seven-day window of November 10–16. Alice owns drivers D001 and D002 and vehicles V001 and V002. D001 completed training on November 9 with a date-only value. D002 has no verified training match. The webhook supplies these three distinct pre-trip DVIRs:
+
+| Date | Author | Vehicle | Safety status | Confirmed partner |
+|---|---|---|---|---|
+| November 11 | D001 | V001 | Safe | D002 |
+| November 11 | D001 | V001 | Unsafe | D002 |
+| November 14 | D001 | V001 | Safe | — |
+
+Expected output:
+
+| Surface | Expected result |
+|---|---|
+| Fleet overview | 2 roster drivers, 1 with recorded PTI, 1 with no recorded PTI, 3 submissions, 1 driver with multiple PTIs, 1 unsafe PTI, and 2 team-related PTIs |
+| D001 summary | 3 submissions, 2 recorded days, 5 days without PTI, 1 distinct vehicle, last PTI on November 14, 2 days since last PTI, and Intermittent submitter |
+| D001 heatmap | November 11 red because unsafe takes precedence, November 14 green, other days gray |
+| D002 heatmap | All gray. The two team DVIRs remain credited to D001 |
+| Training | D001 has recorded PTI since training. D002's training status is unknown |
+| Team table | One ordered pair D001 → D002 with 2 DVIRs |
+| Assignment cross-check | Alice has 2 assigned drivers and 2 assigned vehicles. D002 and V002 are listed for review |
+| Driver CSV | Two summary rows and zero per-date columns |
+
+As a second check, switching to 15 days while keeping the same submitted records gives D001 13 days without PTI and leaves both the submission count and recorded date count unchanged. The frequency threshold becomes 8 distinct recorded days.
+
+## 9. Data gaps and follow-up priorities
+
+| Situation | Dashboard behavior and interpretation |
+|---|---|
+| Complete roster and successful DVIR response containing an empty array | Keep roster drivers visible with zero submissions and gray cells. Assignment cross-check lists can contain every assigned driver and vehicle |
+| DVIR retrieval fails or pagination is incomplete | The workflow should return an error. A successful partial feed could make missing records look like inactivity. The dashboard can show a previous snapshot with a visible sync timestamp if one is available |
+| Complete roster is unavailable | Show observed authors. A driver absent from the screen may be outside the supplied population |
+| Training source is unavailable or matching is unverified | Use Unknown. Keep PTI and assignment reporting available |
+| Assigned driver or truck has PTIs in another platform | The cross-check list reflects the current DVIR feed. Confirm the other platform separately |
+| Vehicle or trailer filters narrow the driver activity board | A gray mark means no matching record under those filters. Use the assignment cross-check for fleet-wide ID matching within the date window |
+| A driver has authored PTIs in older periods | Last PTI on the board means the latest matching PTI inside the selected window. Fleet-wide last-seen activity would need a longer lookback or a separately supplied timestamp |
+
+A future UI can group the existing outputs into four review queues without adding webhook fields: **Requires review or unsafe**, **Trained with no recorded PTI since training**, **Training incomplete or unknown**, and **Assigned drivers or vehicles with no matching DVIR**. Keep these reasons visible because a driver can qualify for more than one queue.
+
+### Ideas that require data or new logic
+
+- **Required inspections and confirmed misses** require eligible driving events and a policy defining when PTIs are expected.
+- **Historical officer ownership** requires effective-dated assignments that cover each inspection date.
+- **Cross-platform PTI reconciliation** requires inspection records from the other platform and a verified identity, equipment, and date matching rule.
+- **Source completeness and freshness per feed** require source-level status or timestamps in the webhook contract. The current app has a report-level synchronization timestamp.
+
+## 10. Reusing a longer DVIR lookback for last-seen dates
+
+For reports ending on the same local date, the last 7 calendar days are contained in the last 15, and both are contained in the last 30. One complete 30-day feed can therefore support the 7- and 15-day boards plus a longer last-seen calculation. Apply local date boundaries after timezone conversion.
+
+The current app requests the selected 7- or 15-day period and calculates last PTI inside that filtered window. If adding a longer last-seen metric, compute it separately from the full available pre-trip history by author ID before narrowing the records to the selected board period:
+
+- **Last PTI in selected period** is the maximum valid matching inspection date inside the visible window.
+- **Last PTI in available history** is the maximum valid authored pre-trip date across the supplied lookback. With 30 days of complete coverage and no match, display **No PTI recorded in the last 30 days**.
+- **Days since last PTI in available history** is local today minus that last date. Leave it blank when the history has no dated match.
+- **Board metrics** such as daily marks, submission counts, frequency, and assignment cross-checks still use only the selected window. The board can continue to offer 7 and 15 days even when n8n supplies 30 days of history.
+
+Example: A driver last submitted 20 days ago. Their 7- and 15-day boards are entirely gray, and the longer-history summary shows their last recorded date and 20 days since last PTI. An all-time last PTI requires complete older history or a separately supplied last-seen timestamp.
